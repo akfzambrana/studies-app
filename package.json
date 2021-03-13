@@ -1,0 +1,16 @@
+{
+  "name": "studies-app",
+  "version": "1.0.0",
+  "description": "Frontend application that I use to study and test technologies",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server 'src' --files 'src'"
+  },
+  "repository": "git@github.com:akfzambrana/studies-app.git",
+  "author": "Andrea Zambrana <zambrana.akf@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "browser-sync": "^2.26.14"
+  }
+}
